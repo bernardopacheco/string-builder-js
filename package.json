@@ -1,0 +1,39 @@
+{
+  "name": "string-builder-js",
+  "version": "1.0.0",
+  "description": "Fast string builder for large mutable strings",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "coverage": "codecov",
+    "linter": "eslint src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardopacheco/string-builder-js.git"
+  },
+  "keywords": [
+    "string",
+    "string builder",
+    "mutable string",
+    "rope"
+  ],
+  "author": {
+    "name": "Bernardo Pacheco",
+    "url": "http://bernardopacheco.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bernardopacheco/string-builder-js/issues"
+  },
+  "homepage": "https://github.com/bernardopacheco/string-builder-js",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.1.0",
+    "codecov": "^3.6.5",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0"
+  },
+  "dependencies": {}
+}
